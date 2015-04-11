@@ -1,0 +1,4 @@
+%tr
+  %td= build.id
+  %td= build.status
+  %td= build.log.try(:last,300)
